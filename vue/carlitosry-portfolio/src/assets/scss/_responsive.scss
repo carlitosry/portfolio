@@ -1,0 +1,2162 @@
+@media screen and (max-width:800px) and (orientation:landscape) {
+	.mfp-img-mobile {
+		.mfp-image-holder {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		img.mfp-img {
+			padding: 0;
+		}
+		.mfp-figure {
+			&:after {
+				top: 0;
+				bottom: 0;
+			}
+			small {
+				display: inline;
+				margin-left: 5px;
+			}
+		}
+		.mfp-bottom-bar {
+			background: rgba(0,0,0,.6);
+			bottom: 0;
+			margin: 0;
+			top: auto;
+			padding: 3px 5px;
+			position: fixed;
+			box-sizing: border-box;
+			&:empty {
+				padding: 0;
+			}
+		}
+		.mfp-counter {
+			right: 5px;
+			top: 3px;
+		}
+		.mfp-close {
+			top: 0;
+			right: 0;
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			background: rgba(0,0,0,.6);
+			position: fixed;
+			text-align: center;
+			padding: 0;
+		}
+	}
+}
+
+@media screen and (max-height:300px) {
+	.mfp-img-mobile {
+		.mfp-image-holder {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		img.mfp-img {
+			padding: 0;
+		}
+		.mfp-figure {
+			&:after {
+				top: 0;
+				bottom: 0;
+			}
+			small {
+				display: inline;
+				margin-left: 5px;
+			}
+		}
+		.mfp-bottom-bar {
+			background: rgba(0,0,0,.6);
+			bottom: 0;
+			margin: 0;
+			top: auto;
+			padding: 3px 5px;
+			position: fixed;
+			box-sizing: border-box;
+			&:empty {
+				padding: 0;
+			}
+		}
+		.mfp-counter {
+			right: 5px;
+			top: 3px;
+		}
+		.mfp-close {
+			top: 0;
+			right: 0;
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			background: rgba(0,0,0,.6);
+			position: fixed;
+			text-align: center;
+			padding: 0;
+		}
+	}
+}
+
+@media all and (max-width:900px) {
+	.mfp-arrow {
+		-webkit-transform: scale(.75);
+		transform: scale(.75);
+	}
+	.mfp-arrow-left {
+		-webkit-transform-origin: 0;
+		transform-origin: 0;
+	}
+	.mfp-arrow-right {
+		-webkit-transform-origin: 100%;
+		transform-origin: 100%;
+	}
+	.mfp-container {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+}
+
+@media (max-width: 1040px) {
+	body.dark {
+		.iknow_tm_topbar {
+			.wrapper {
+				.menu {
+					ul {
+						li.active {
+							a {
+								color: $color_11;
+							}
+						}
+						li {
+							a {
+								&:hover {
+									color: $color_11;
+								}
+							}
+						}
+					}
+					box-shadow: 0px 0px 30px rgb(255 255 255 / 4%);
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	body.dark {
+		.iknow_tm_news {
+			.news_list {
+				ul {
+					li {
+						.details {
+							background: none;
+							box-shadow: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1400px) {
+	body {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.container {
+		max-width: 1070px;
+	}
+	.iknow_tm_topbar {
+		.topbar_inner {
+			padding-top: 25px;
+		}
+		.logo {
+			img {
+				max-width: 95px;
+			}
+		}
+		.right {
+			.social {
+				ul {
+					li {
+						margin-right: 8px;
+						.svg {
+							width: 17px;
+							height: 17px;
+						}
+					}
+				}
+			}
+		}
+		.iknow_tm_button {
+			margin-left: 23px;
+		}
+	}
+	.iknow_tm_button {
+		a {
+			font-size: 14px;
+			padding: 8px 35px;
+		}
+	}
+	.iknow_tm_hero {
+		.main_menu {
+			ul {
+				li {
+					width: 95px;
+					height: 95px;
+					padding: 35px;
+					.svg {
+						width: 25px;
+						height: 25px;
+					}
+					span {
+						font-size: 17px;
+					}
+				}
+				li.entered {
+					span {
+						left: 60px;
+					}
+				}
+				li.active {
+					span {
+						left: 60px;
+					}
+				}
+			}
+		}
+		.subtitle {
+			font-size: 25px;
+		}
+		.name {
+			font-size: 70px;
+			margin-bottom: 15px;
+		}
+		.text {
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+	}
+	.iknow_tm_video {
+		.circle {
+			width: 60px;
+			height: 60px;
+		}
+		.play {
+			font-size: 20px;
+			padding-left: 20px;
+		}
+	}
+	.iknow_tm_main_title {
+		h3 {
+			font-size: 35px;
+		}
+	}
+	.iknow_tm_about {
+		.right {
+			.bigger_text {
+				p {
+					font-size: 19px;
+				}
+			}
+		}
+		.left {
+			.details {
+				min-width: 60%;
+				padding: 30px 34px 29px 34px;
+				span {
+					font-size: 15px;
+				}
+				h3 {
+					margin-bottom: 1px;
+				}
+				ul {
+					li {
+						padding: 10px 0px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_hero_second {
+		.subtitle {
+			font-size: 25px;
+		}
+		.name {
+			font-size: 70px;
+			margin-bottom: 15px;
+		}
+		.text {
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		.right {
+			.image {
+				width: 315px;
+				height: 315px;
+				.first {
+					width: 65px;
+					height: 65px;
+					top: 10px;
+				}
+				.second {
+					width: 85px;
+					height: 110px;
+					left: -20px;
+				}
+				.third {
+					width: 120px;
+					height: 260px;
+					top: -10px;
+				}
+			}
+		}
+		.social {
+			ul {
+				li {
+					.svg {
+						width: 40px;
+						height: 40px;
+					}
+					margin-right: 8px;
+				}
+			}
+		}
+	}
+	.iknow_tm_extra_menu {
+		margin-top: -145px;
+		.menu_list {
+			.unordered {
+				.unorderest_li {
+					.list_in {
+						height: 120px;
+					}
+				}
+			}
+		}
+		.list_in {
+			.list_icon {
+				min-width: 120px;
+				height: 120px;
+				.svg {
+					width: 36px;
+					height: 36px;
+				}
+			}
+			.down_icon {
+				min-width: 120px;
+				height: 120px;
+				.svg {
+					width: 20px;
+					height: 20px;
+				}
+			}
+			.center {
+				line-height: 120px;
+				padding: 0px 35px;
+				span {
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	.iknow_tm_testimonials {
+		.testimonials_list {
+			.text {
+				p {
+					font-size: 16px;
+					font-size: 19px;
+				}
+			}
+			.details {
+				.avatar {
+					width: 50px;
+					height: 50px;
+				}
+				.info {
+					h3 {
+						margin: 2px;
+						font-size: 19px;
+					}
+				}
+			}
+			.right {
+				.svg {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+	.progress_inner {
+		span.label {
+			font-size: 19px;
+		}
+		>span {
+			margin-bottom: 16px;
+		}
+	}
+	.circular_progress_bar {
+		.title {
+			h3 {
+				margin-bottom: 19px;
+				font-size: 19px;
+			}
+			max-width: 120px;
+		}
+		.list_inner {
+			&:after {
+				width: 155px;
+				height: 155px;
+			}
+		}
+		.number {
+			font-size: 20px;
+		}
+	}
+	.iknow_tm_services {
+		.service_list {
+			ul {
+				li {
+					.title {
+						margin-bottom: 25px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_portfolio {
+		.portfolio_filter {
+			ul {
+				li {
+					a {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		.portfolio_list {
+			.svg {
+				width: 40px;
+				height: 40px;
+			}
+			.details {
+				span {
+					margin-bottom: 7px;
+					font-size: 14px;
+				}
+				h3 {
+					font-size: 19px;
+				}
+				padding-bottom: 25px;
+			}
+		}
+	}
+	.iknow_tm_news {
+		.news_list {
+			ul {
+				li {
+					.details {
+						.title {
+							a {
+								font-size: 19px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_modalbox {
+		.box_inner {
+			width: 850px;
+		}
+	}
+	.iknow_tm_contact {
+		.wrapper {
+			.left {
+				ul {
+					li {
+						.list_inner {
+							.short {
+								h3 {
+									font-size: 19px;
+									margin-bottom: 7px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_copyright {
+		padding-bottom: 25px;
+	}
+	.iknow_tm_fixed_content {
+		.menubar {
+			ul {
+				li {
+					height: 40px;
+					line-height: 40px;
+					padding-left: 45px;
+					.svg {
+						width: 17px;
+						height: 17px;
+						left: 14px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+		.infobar {
+			.extra {
+				.short {
+					h3 {
+						font-size: 20px;
+						margin-bottom: 3px;
+					}
+					span {
+						font-size: 14px;
+					}
+					margin-bottom: 15px;
+				}
+				.social {
+					ul {
+						li {
+							.svg {
+								width: 30px;
+								height: 30px;
+							}
+							margin-right: 4px;
+						}
+					}
+				}
+				padding: 20px 10px;
+			}
+		}
+		.mainbar {
+			padding: 55px;
+		}
+		.iknow_tm_main_title {
+			h3 {
+				font-size: 31px;
+			}
+		}
+		.iknow_tm_resume_title {
+			h3 {
+				font-size: 30px;
+			}
+		}
+		.iknow_tm_portfolio {
+			.portfolio_list {
+				.svg {
+					width: 30px;
+					height: 30px;
+				}
+				.details {
+					padding-bottom: 15px;
+					span {
+						margin-bottom: 0px;
+						font-size: 14px;
+					}
+					h3 {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+		.iknow_tm_services {
+			.service_list {
+				ul {
+					li {
+						.list_inner {
+							padding: 50px 30px 48px 30px;
+						}
+						.title {
+							font-size: 17px;
+						}
+					}
+				}
+			}
+		}
+		.iknow_tm_testimonials {
+			.testimonials_list {
+				.text {
+					p {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_resume {
+		.info_list {
+			ul {
+				li {
+					.short {
+						.year {
+							span {
+								font-size: 15px;
+								padding: 5px 25px 4px 25px;
+							}
+						}
+						.job {
+							h3 {
+								font-size: 19px;
+								margin-bottom: 3px;
+							}
+							span {
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_sidebar_2 {
+		.logo {
+			height: 75px;
+			line-height: 75px;
+			padding-left: 40px;
+			img {
+				max-width: 90px;
+				max-height: 60px;
+			}
+		}
+		width: 300px;
+		.menu {
+			ul {
+				li {
+					height: 55px;
+					line-height: 55px;
+					padding-left: 75px;
+					span {
+						font-size: 13px;
+					}
+					.svg {
+						width: 23px;
+						height: 23px;
+						left: 40px;
+					}
+				}
+			}
+		}
+		.ccc {
+			height: 55px;
+		}
+	}
+	.iknow_tm_fixed_mainpart {
+		left: 300px;
+		.topbar_extra {
+			height: 75px;
+			left: 380px;
+			right: 80px;
+		}
+		.extra_copyright {
+			padding: 0px 80px;
+			height: 75px;
+			line-height: 75px;
+		}
+	}
+	.iknow_tm_content_extra {
+		top: 75px;
+		bottom: 75px;
+		left: 380px;
+		right: 80px;
+	}
+	.iknow_tm_hero_extra {
+		.hero_content {
+			.left {
+				.hello {
+					font-size: 23px;
+					margin-bottom: 4px;
+				}
+				padding-left: 85px;
+				.name {
+					font-size: 80px;
+					margin-bottom: 15px;
+				}
+				.text {
+					font-size: 20px;
+					margin-bottom: 25px;
+				}
+			}
+			.right {
+				.image {
+					.box {
+						top: -20px !important;
+						bottom: 20px !important;
+						left: 20px !important;
+						right: -20px !important;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_animate_section {
+		.section_inner {
+			padding: 55px;
+		}
+	}
+	.iknow_tm_extra_demo {
+		.top_shape {
+			height: 75px;
+		}
+		.bottom_shape {
+			height: 75px;
+		}
+		.iknow_tm_copyright {
+			.inner {
+				height: 75px;
+			}
+			left: 75px;
+			right: 75px;
+		}
+		.iknow_tm_topbar {
+			.topbar_inner {
+				height: 75px;
+			}
+			.social {
+				.svg {
+					width: 30px !important;
+					height: 30px !important;
+				}
+			}
+			.right {
+				.social {
+					ul {
+						li {
+							margin-right: 4px;
+						}
+					}
+				}
+			}
+			left: 75px;
+			right: 75px;
+		}
+		.iknow_tm_topbar.smaller {
+			left: 15%;
+			right: 15%;
+		}
+	}
+	.iknow_tm_sidebar_3 {
+		left: 75px;
+		width: 240px;
+		top: 75px;
+		bottom: 75px;
+		.image {
+			height: 140px;
+			.main {
+				width: 140px;
+				height: 140px;
+				bottom: -45px;
+			}
+		}
+		.menu {
+			padding: 0px 35px;
+			margin-top: 70px;
+			ul {
+				li {
+					.svg {
+						left: 20px;
+						width: 23px;
+						height: 20px;
+						margin-top: 3px;
+					}
+					span {
+						padding-left: 55px;
+						font-size: 13px;
+					}
+					padding: 5px 0px;
+				}
+			}
+		}
+	}
+	.iknow_tm_sidebar_3.animate {
+		.main {
+			bottom: 0px;
+			width: 100%;
+		}
+	}
+	.iknow_tm_content_wrapper {
+		top: 75px;
+		bottom: 75px;
+		right: 75px;
+		left: 335px;
+	}
+	.iknow_tm_hero_third {
+		.content {
+			.hello {
+				font-size: 23px;
+				margin-bottom: 0px;
+			}
+			.name {
+				font-size: 60px;
+				margin-bottom: 10px;
+			}
+			.text {
+				font-size: 20px;
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.iknow_tm_down_arrow {
+		bottom: 5%;
+	}
+	.iknow_tm_section_new {
+		padding: 55px;
+	}
+	.iknow_tm_mainpart_new {
+		top: 75px;
+		bottom: 75px;
+	}
+	.iknow_tm_hero_fourth {
+		.content {
+			.right {
+				padding-left: 40px;
+				.hello {
+					font-size: 23px;
+					margin-bottom: 0px;
+				}
+				.name {
+					font-size: 60px;
+					margin-bottom: 10px;
+				}
+				.text {
+					font-size: 20px;
+					margin-bottom: 25px;
+				}
+			}
+			padding: 0px 90px;
+			.left {
+				img {
+					max-width: 300px;
+					max-height: 300px;
+				}
+			}
+		}
+	}
+	.iknow_tm_mainpart_new_2 {
+		top: 75px;
+		.social_list {
+			ul {
+				li {
+					.svg {
+						width: 35px;
+						height: 35px;
+					}
+					margin-bottom: 2px;
+				}
+			}
+		}
+		.main_menu {
+			ul {
+				li {
+					.svg {
+						width: 20px;
+						height: 20px;
+					}
+					span {
+						font-size: 13px;
+					}
+					width: 50px;
+					height: 50px;
+					padding: 15px;
+					margin-bottom: 4px;
+				}
+				li.entered {
+					span {
+						left: 32px;
+					}
+				}
+				li.current {
+					span {
+						left: 32px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_extra_demo_2 {
+		.top_shape {
+			height: 75px;
+		}
+		.iknow_tm_topbar {
+			.topbar_inner {
+				height: 75px;
+			}
+		}
+	}
+	.iknow_tm_hero_fifth {
+		.avatar {
+			width: 110px;
+			height: 110px;
+			margin-bottom: 20px;
+		}
+		.hello {
+			font-size: 23px;
+			margin-bottom: 0px;
+		}
+		.name {
+			font-size: 60px;
+			margin-bottom: 10px;
+		}
+		.text {
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		.sign {
+			max-width: 110px;
+			max-height: 70px;
+		}
+	}
+	.intro_title {
+		img {
+			max-width: 120px;
+		}
+		margin-bottom: 70px;
+	}
+	.iknow_tm_intro {
+		.filter {
+			ul {
+				li {
+					a {
+						font-size: 16px;
+					}
+				}
+			}
+			margin-bottom: 30px;
+		}
+		.demo {
+			ul {
+				li {
+					.list_inner {
+						.in {
+							&:first-child {
+								margin-right: 20px;
+							}
+							&:last-child {
+								margin-left: 20px;
+							}
+						}
+					}
+					h3 {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1040px) {
+	.iknow_tm_mobile_menu {
+		display: block;
+	}
+	.iknow_tm_topbar.onepage {
+		display: none;
+	}
+	.iknow_tm_extra_demo_2 {
+		.top_shape {
+			display: none;
+		}
+		.bottom_shape {
+			display: none;
+		}
+	}
+	.iknow_tm_sidebar_3 {
+		display: none;
+	}
+	.iknow_tm_content_wrapper {
+		left: 10px;
+		right: 10px;
+		top: 70px;
+		bottom: 10px;
+	}
+	.iknow_tm_section_new {
+		margin-bottom: 10px;
+		padding: 50px 20px;
+	}
+	.iknow_tm_hero_third {
+		margin-bottom: 10px;
+		.content {
+			.hello {
+				font-size: 23px;
+			}
+			.name {
+				font-size: 55px;
+				margin-bottom: 13px;
+			}
+			.text {
+				font-size: 18px;
+			}
+		}
+	}
+	.iknow_tm_hero_fifth {
+		.hello {
+			font-size: 23px;
+		}
+		.name {
+			font-size: 55px;
+			margin-bottom: 13px;
+		}
+		.text {
+			font-size: 18px;
+		}
+		.sign {
+			max-width: 150px;
+			max-height: 75px;
+		}
+		margin-bottom: 10px;
+	}
+	.iknow_tm_extra_demo {
+		.top_shape {
+			display: none;
+		}
+		.bottom_shape {
+			display: none;
+		}
+		.iknow_tm_topbar {
+			.topbar_inner {
+				height: 70px;
+			}
+		}
+		.iknow_tm_copyright.smaller {
+			left: 10px;
+			right: 10px;
+		}
+		.iknow_tm_copyright {
+			.inner {
+				height: auto;
+				.left {
+					margin-bottom: 1px;
+				}
+			}
+			p {
+				font-size: 13px;
+			}
+			a {
+				font-size: 13px;
+			}
+			bottom: 5px;
+		}
+	}
+	.iknow_tm_copyright.onepage {
+		.inner {
+			height: auto;
+		}
+		position: relative;
+		left: 0px;
+		right: 0px;
+		padding: 20px 0px;
+	}
+	.iknow_tm_mainpart_new_2 {
+		.main_menu {
+			display: none;
+		}
+		.social_list {
+			display: none;
+		}
+		top: 70px;
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+	}
+	.iknow_tm_topbar.smaller {
+		left: 10px;
+		right: 10px;
+	}
+	.iknow_tm_mainpart_new {
+		left: 10px;
+		right: 10px;
+		top: 70px;
+		bottom: 70px;
+	}
+	.iknow_tm_sidebar_2 {
+		display: none;
+	}
+	.iknow_tm_fixed_mainpart {
+		left: 0px;
+		.topbar_extra {
+			display: none;
+		}
+		.extra_copyright {
+			height: auto;
+			line-height: 1.3;
+			padding: 0px;
+			p {
+				font-size: 13px;
+			}
+			a {
+				font-size: 13px;
+			}
+		}
+	}
+	.iknow_tm_topbar {
+		.wrapper {
+			.menu {
+				margin: 0;
+				width: 180px;
+				right: 0;
+				transform: translateY(10px);
+				border-radius: 10px;
+				position: absolute;
+				top: 100%;
+				box-shadow: 0px 0px 30px rgb(8 32 93 / 10%);
+				ul {
+					display: flex;
+					flex-direction: column;
+					li {
+						a {
+							display: block;
+							padding: 6px 15px 5px 15px;
+							&:hover {
+								color: $color_11;
+							}
+						}
+					}
+					li.active {
+						a {
+							color: $color_11;
+						}
+					}
+				}
+				.ccc {
+					display: none;
+				}
+			}
+			.menu.opened {
+				transform: translateY(19px);
+			}
+		}
+		.topbar_inner {
+			padding-top: 25px;
+		}
+		.iknow_tm_button {
+			a {
+				padding: 8px 20px;
+				font-size: 13px;
+			}
+		}
+		.right {
+			.social {
+				display: none;
+			}
+		}
+	}
+	.iknow_tm_animate_section {
+		.section_inner {
+			padding: 50px 20px;
+		}
+	}
+	.iknow_tm_hero_fourth {
+		.content {
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			padding: 0px 20px;
+			.left {
+				width: 100%;
+				padding-right: 0px;
+				margin-bottom: 40px;
+				img {
+					max-width: 220px;
+					max-height: 220px;
+				}
+			}
+			.right {
+				width: 100%;
+				padding-left: 0px;
+				.hello {
+					font-size: 23px;
+				}
+				.name {
+					font-size: 55px;
+					margin-bottom: 13px;
+				}
+				.text {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.iknow_tm_content_extra {
+		top: 70px;
+		bottom: 70px;
+		left: 10px;
+		right: 10px;
+	}
+	.iknow_tm_hero_extra {
+		.hero_content {
+			flex-direction: column-reverse;
+			padding: 50px 20px;
+			text-align: center;
+			.right {
+				padding: 0px;
+				margin-bottom: 40px;
+				.image {
+					max-width: 165px;
+					margin: 0px auto;
+					.box {
+						top: -10px !important;
+						bottom: 10px !important;
+						left: 10px !important;
+						right: -10px !important;
+					}
+				}
+			}
+			.left {
+				width: 100%;
+				padding: 0px;
+				.hello {
+					font-size: 23px;
+				}
+				.name {
+					font-size: 55px;
+					margin-bottom: 13px;
+				}
+				.text {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.iknow_tm_section_new.contact {
+		padding-bottom: 70px;
+	}
+	.mouse-cursor {
+		display: none;
+	}
+	.iknow_tm_button {
+		a {
+			padding: 10px 30px;
+			font-size: 14px;
+		}
+	}
+	.container {
+		padding: 0px 20px;
+	}
+	.iknow_tm_hero {
+		.main_menu {
+			margin-top: 50px;
+			ul {
+				li {
+					width: 100% !important;
+					height: auto !important;
+					padding: 20px;
+					span {
+						left: 65px !important;
+						font-size: 20px;
+					}
+					.svg {
+						width: 32px;
+						height: 32px;
+					}
+				}
+			}
+		}
+		.content_inner {
+			.main_info {
+				min-height: auto;
+				flex-direction: column-reverse;
+				align-items: baseline;
+			}
+		}
+		.right {
+			padding-left: 0px;
+			width: 100%;
+			.image {
+				.main {
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+		.left {
+			width: 100%;
+			margin-top: 40px;
+		}
+		.name {
+			font-size: 35px;
+		}
+		.text {
+			font-size: 20px;
+		}
+	}
+	.iknow_tm_hero_second {
+		.left {
+			width: 100%;
+			margin-top: 40px;
+		}
+		.right {
+			width: 100%;
+			.image {
+				span {
+					display: none;
+				}
+				width: auto;
+				height: auto;
+				min-width: 100%;
+				min-height: 350px;
+				border-radius: 0px;
+				.main {
+					border-radius: 15px;
+				}
+			}
+		}
+		.main_info {
+			flex-direction: column-reverse;
+			align-items: baseline;
+			padding-top: 150px;
+		}
+		.name {
+			font-size: 35px;
+		}
+		.text {
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+		.social {
+			ul {
+				li {
+					.svg {
+						width: 35px;
+						height: 35px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_extra_menu {
+		margin-top: -100px;
+		.list_in {
+			.center {
+				span {
+					font-size: 18px;
+				}
+				height: 60px;
+				line-height: 60px;
+				padding: 0px 20px 0px 70px;
+				margin: 0px;
+			}
+			.list_icon {
+				width: 60px;
+				min-width: 60px;
+				height: 60px;
+				position: absolute;
+				left: 0px;
+				.svg {
+					width: 25px;
+					height: 25px;
+				}
+			}
+			.down_icon {
+				display: none;
+				.svg {
+					width: 15px;
+					height: 15px;
+				}
+			}
+		}
+		.menu_list {
+			.unordered {
+				.unorderest_li {
+					margin-bottom: 10px;
+					.details_wrapper {
+						margin-top: 10px;
+						padding: 70px 30px;
+					}
+					.list_in {
+						height: 60px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_video {
+		.circle {
+			width: 60px;
+			height: 60px;
+		}
+		.play {
+			font-size: 22px;
+			padding-left: 20px;
+		}
+	}
+	.iknow_tm_mainpart.opened {
+		padding: 70px 30px;
+	}
+	.iknow_tm_about {
+		flex-direction: column-reverse;
+		.right {
+			padding-left: 0px;
+			width: 100%;
+			top: 0px;
+		}
+		.left {
+			width: 100%;
+			.image {
+				img {
+					display: none;
+				}
+				.main {
+					display: none;
+				}
+			}
+			.left_inner {
+				display: block;
+			}
+			.details {
+				left: 0px;
+			}
+		}
+	}
+	.iknow_tm_main_title {
+		max-width: 100%;
+		h3 {
+			font-size: 40px;
+		}
+	}
+	.iknow_tm_resume {
+		.iknow_tm_main_title {
+			margin-bottom: 65px;
+		}
+		.resume_inner {
+			flex-direction: column;
+		}
+		.left {
+			width: 100%;
+			padding-right: 0px;
+		}
+		.right {
+			width: 100%;
+			padding-left: 0px;
+			margin-top: 55px;
+		}
+	}
+	.iknow_tm_portfolio {
+		.portfolio_list {
+			ul {
+				li {
+					width: 50%;
+				}
+			}
+		}
+		.portfolio_filter {
+			text-align: left;
+		}
+	}
+	.iknow_tm_services {
+		.service_list {
+			ul {
+				li {
+					width: 50%;
+				}
+			}
+		}
+	}
+	.iknow_tm_news {
+		.news_list {
+			ul {
+				li {
+					width: 50%;
+				}
+			}
+		}
+	}
+	.iknow_tm_contact {
+		.wrapper {
+			flex-direction: column;
+			.left {
+				width: 100%;
+				padding-right: 0px;
+				margin-bottom: 40px;
+			}
+			.right {
+				width: 100%;
+			}
+		}
+	}
+	.iknow_tm_copyright {
+		.inner {
+			flex-direction: column;
+			.left {
+				margin-bottom: 5px;
+			}
+		}
+		.right {
+			ul {
+				li {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+	.iknow_tm_fixed_content {
+		.container {
+			padding: 0px;
+		}
+		.infobar {
+			display: none;
+		}
+		.content_left {
+			position: fixed;
+			width: auto;
+		}
+		.menubar {
+			width: 40px;
+			padding: 0px;
+			ul {
+				li {
+					width: 40px;
+					height: 40px;
+					line-height: 40px;
+					float: none;
+					background-color: $background-color_12;
+					padding: 0px;
+					margin: 0px 0px 5px 0px;
+					border-radius: 0px 7px 7px 0px;
+					box-shadow: 3px 3px 20px rgb(59 89 152 / 10%);
+					.svg {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						width: 20px;
+						height: 20px;
+					}
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+		.mainbar {
+			border-radius: 10px 0px 0px 10px;
+			box-shadow: 3px 3px 20px rgb(59 89 152 / 10%);
+			padding: 40px 20px;
+		}
+		.content_right {
+			width: 100%;
+			padding-left: 50px;
+			margin-left: 0;
+		}
+	}
+	.iknow_tm_author_info {
+		display: block;
+	}
+	.iknow_tm_button.fixedVersion {
+		display: none;
+	}
+	.simple_shapes {
+		.one {
+			display: none;
+		}
+		.two {
+			display: none;
+		}
+		.three {
+			display: none;
+		}
+		.four {
+			display: none;
+		}
+		.five {
+			display: none;
+		}
+		.six {
+			display: none;
+		}
+		.seven {
+			display: none;
+		}
+		.eight {
+			display: none;
+		}
+		.nine {
+			display: none;
+		}
+		.ten {
+			display: none;
+		}
+		.eleven {
+			display: none;
+		}
+		.twelve {
+			display: none;
+		}
+		.thirteen {
+			display: none;
+		}
+		.fourteen {
+			display: none;
+		}
+		.fifteen {
+			display: none;
+		}
+		.sixteen {
+			display: none;
+		}
+		.seventeen {
+			display: none;
+		}
+		.eighteen {
+			display: none;
+		}
+		.nineteen {
+			display: none;
+		}
+		.twenty {
+			display: none;
+		}
+	}
+	.rounded_shapes {
+		.one {
+			display: none;
+		}
+		.two {
+			display: none;
+		}
+		.three {
+			display: none;
+		}
+		.four {
+			display: none;
+		}
+		.five {
+			display: none;
+		}
+		.six {
+			display: none;
+		}
+		.seven {
+			display: none;
+		}
+		.eight {
+			display: none;
+		}
+		.nine {
+			display: none;
+		}
+		.ten {
+			display: none;
+		}
+		.eleven {
+			display: none;
+		}
+		.twelve {
+			display: none;
+		}
+		.thirteen {
+			display: none;
+		}
+		.fourteen {
+			display: none;
+		}
+		.fifteen {
+			display: none;
+		}
+		.sixteen {
+			display: none;
+		}
+		.seventeen {
+			display: none;
+		}
+		.eighteen {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.iknow_tm_hero_third {
+		.content {
+			.hello {
+				font-size: 21px;
+			}
+			.name {
+				font-size: 48px;
+				margin-bottom: 10px;
+			}
+			.text {
+				font-size: 16px;
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.iknow_tm_down_arrow {
+		bottom: 5%;
+	}
+	.iknow_tm_hero_fourth {
+		.content {
+			.right {
+				.hello {
+					font-size: 21px;
+				}
+				.name {
+					font-size: 48px;
+					margin-bottom: 20px;
+				}
+				.text {
+					font-size: 16px;
+					margin-bottom: 25px;
+				}
+			}
+		}
+	}
+	.iknow_tm_hero_extra {
+		.hero_content {
+			.left {
+				.hello {
+					font-size: 21px;
+				}
+				.name {
+					font-size: 48px;
+					margin-bottom: 20px;
+				}
+				.text {
+					font-size: 16px;
+					margin-bottom: 25px;
+				}
+			}
+		}
+	}
+	.iknow_tm_topbar {
+		.logo {
+			img {
+				max-width: 90px;
+			}
+		}
+	}
+	.iknow_tm_main_title {
+		span {
+			font-size: 18px;
+		}
+		h3 {
+			font-size: 30px;
+		}
+	}
+	.iknow_tm_about {
+		.right {
+			.bigger_text {
+				p {
+					font-size: 19px;
+				}
+			}
+		}
+	}
+	.circular_progress_bar {
+		.list_inner {
+			&:after {
+				width: 108px;
+				height: 108px;
+			}
+		}
+		.number {
+			font-size: 20px;
+		}
+		.title {
+			max-width: 120px;
+			h3 {
+				font-size: 19px;
+			}
+		}
+	}
+	.iknow_tm_resume_title {
+		h3 {
+			font-size: 25px;
+			padding-left: 33px;
+		}
+		.shape {
+			width: 21px;
+			height: 21px;
+			&:before {
+				width: 4px;
+				height: 4px;
+			}
+		}
+	}
+	.iknow_tm_resume {
+		.info_list {
+			ul {
+				li {
+					.short {
+						.job {
+							h3 {
+								font-size: 20px;
+								margin-bottom: 4px;
+							}
+							span {
+								font-size: 18px;
+							}
+						}
+						.year {
+							span {
+								font-size: 18px;
+								padding: 5px 30px 4px 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.progress_inner {
+		span.label {
+			font-size: 19px;
+		}
+		margin-bottom: 20px;
+		>span {
+			margin-bottom: 15px;
+		}
+	}
+	.iknow_tm_portfolio {
+		.portfolio_list {
+			ul {
+				margin: 0px;
+				li {
+					width: 100%;
+					padding-left: 0px;
+				}
+			}
+			.details {
+				span {
+					margin-bottom: 5px;
+				}
+			}
+			.svg {
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+	.iknow_tm_services {
+		.service_list {
+			ul {
+				margin: 0px;
+				li {
+					width: 100%;
+					padding-left: 0px;
+					.title {
+						font-size: 21px;
+					}
+					.icon {
+						width: 95px;
+						height: 95px;
+						.svg {
+							width: 35px;
+							height: 35px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_testimonials {
+		.testimonials_list {
+			.details {
+				.info {
+					h3 {
+						font-size: 19px;
+						margin-bottom: 3px;
+					}
+				}
+			}
+			.text {
+				p {
+					font-size: 19px;
+				}
+			}
+			.right {
+				.svg {
+					width: 45px;
+					height: 45px;
+				}
+			}
+			.list_inner {
+				.in {
+					padding: 27px 35px 35px 35px;
+				}
+			}
+		}
+		.owl-theme {
+			.owl-dots {
+				.owl-dot {
+					span {
+						margin: 0px 10px;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_news {
+		.news_list {
+			ul {
+				margin: 0px;
+				li {
+					width: 100%;
+					padding-left: 0px;
+					.details {
+						.title {
+							a {
+								font-size: 19px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_contact {
+		.wrapper {
+			.right {
+				.input_list {
+					ul {
+						margin: 0px;
+						li {
+							width: 100%;
+							padding-left: 0px;
+						}
+					}
+				}
+			}
+			.left {
+				ul {
+					li {
+						.list_inner {
+							.short {
+								h3 {
+									font-size: 19px;
+									margin-bottom: 8px;
+								}
+							}
+							.icon {
+								width: 80px;
+								height: 80px;
+								min-width: 80px;
+								min-height: 80px;
+								.svg {
+									width: 30px;
+									height: 30px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_modalbox {
+		.box_inner {
+			width: 500px;
+		}
+		.main_details {
+			flex-direction: column;
+			.textbox {
+				width: 100%;
+				padding-right: 0px;
+				margin-bottom: 40px;
+			}
+		}
+		.additional_images {
+			ul {
+				margin: 0px;
+				li {
+					width: 100%;
+					padding-left: 0px;
+				}
+			}
+		}
+		.description_wrap {
+			padding: 30px;
+		}
+	}
+	.iknow_tm_copyright.fixed {
+		text-align: center;
+		padding: 30px 20px;
+		.left {
+			margin-bottom: 0px;
+		}
+		.right {
+			display: none;
+		}
+		p {
+			font-size: 13px;
+		}
+		a {
+			font-size: 13px;
+		}
+	}
+	.iknow_tm_fixed_content {
+		.iknow_tm_portfolio {
+			.portfolio_list {
+				ul {
+					margin: 0px;
+					li {
+						width: 100%;
+						padding-left: 0px;
+					}
+				}
+			}
+		}
+		.iknow_tm_services {
+			.service_list {
+				ul {
+					margin: 0px;
+					li {
+						width: 100%;
+						padding-left: 0px;
+					}
+				}
+			}
+		}
+		.iknow_tm_news {
+			.news_list {
+				ul {
+					margin: 0px;
+					li {
+						width: 100%;
+						padding-left: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.iknow_tm_modalbox {
+		.box_inner {
+			width: 300px;
+		}
+		.close {
+			.svg {
+				width: 25px;
+				height: 25px;
+			}
+			margin-left: 0px;
+			left: auto;
+			right: 0px;
+			top: -35px;
+		}
+	}
+	.iknow_tm_resume {
+		.info_list {
+			ul {
+				li {
+					.short {
+						flex-direction: column;
+						align-items: baseline;
+						.job {
+							width: 100%;
+							padding-right: 0px;
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_testimonials {
+		.testimonials_list {
+			.details {
+				.right {
+					display: none;
+				}
+				.avatar {
+					width: 50px;
+					height: 50px;
+				}
+				.info {
+					h3 {
+						font-size: 16px;
+						margin-bottom: 0px;
+					}
+					span {
+						font-size: 14px;
+					}
+					padding-left: 12px;
+				}
+			}
+			.text {
+				p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.circular_progress_bar {
+		.title {
+			h3 {
+				font-size: 17px;
+			}
+		}
+	}
+	.progress_inner {
+		span.label {
+			font-size: 17px;
+		}
+		>span {
+			margin-bottom: 12px;
+		}
+	}
+	.iknow_tm_news {
+		.news_list {
+			ul {
+				li {
+					.details {
+						padding: 10px 0px 0px 0px !important;
+						background-color: $background-color_1;
+						box-shadow: none;
+					}
+				}
+			}
+		}
+	}
+	.iknow_tm_intro {
+		.filter {
+			ul {
+				li {
+					margin-right: 10px;
+					a {
+						font-size: 14px;
+					}
+				}
+			}
+			margin-bottom: 20px;
+		}
+		.demo {
+			ul {
+				li {
+					.list_inner {
+						.in {
+							&:first-child {
+								margin-right: 7px;
+							}
+							&:last-child {
+								margin-left: 7px;
+							}
+						}
+					}
+					h3 {
+						font-size: 11px;
+					}
+				}
+			}
+			max-width: 90%;
+		}
+	}
+	.intro_title {
+		img {
+			max-width: 90px;
+		}
+		span {
+			font-size: 14px;
+		}
+	}
+}
